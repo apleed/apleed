@@ -2,11 +2,11 @@
 @font-face
 {
     font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    src: url('ballpark.eot');
+    src: url('ballpark.eot?#iefix') format('embedded-opentype'),
+         url('ballpark.woff') format('woff'),
+         url('ballpark.ttf') format('truetype'),
+         url('ballpark.svg#BallparkWeiner') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,11 +14,11 @@
 @font-face
 {
     font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
+    src: url('dayrom.eot');
+    src: url('dayrom.eot?#iefix') format('embedded-opentype'),
+         url('dayrom.woff') format('woff'),
+         url('dayrom.ttf') format('truetype'),
+         url('dayrom.svg#Dayrom') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -61,7 +61,7 @@ h3
 
 body
 {
-    background: url('images/fond_jaune.png');
+    background: url('fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
@@ -83,7 +83,7 @@ section h1, footer h1, nav a
 
 header
 {
-    background: url('images/separateur.png') repeat-x bottom;
+    background: url('parateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -157,7 +157,7 @@ nav a:hover
     margin-top: 15px;
     height: 200px;
     width: 1000px;
-    background: url('images/sanfrancisco.jpg') no-repeat;
+    background: url('sanfrancisco.jpg') no-repeat;
     position: center;
     margin-bottom: 10px;
 
@@ -170,7 +170,7 @@ nav a:hover
     position: center;
     right: 5px;
     bottom: 5px;
-    background: url('images/fond_degraderouge.png') repeat-x;
+    background: url('fond_degraderouge.png') repeat-x;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
@@ -254,7 +254,7 @@ aside img
 footer
 {
     display: flex;
-    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+    background:  url('ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
     padding-top: 25px;
 }
 
@@ -300,7 +300,7 @@ footer h1
 
 #mes_amis ul
 {
-    list-style-image: url('images/ico_liensexterne.png');
+    list-style-image: url('ico_liensexterne.png');
     padding-left: 2px;
 }
 
